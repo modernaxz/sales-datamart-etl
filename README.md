@@ -78,6 +78,7 @@ sales-datamart-etl/
 │   ├── staging_schema.sql
 │   └── datamart_schema.sql
 ├── sample_data/
+│   ├── README.md
 │   └── datamart_mockup.xlsx
 └── docs/
     ├── data-dictionary.png
@@ -129,6 +130,12 @@ This project uses structured mockup Excel data only.
 The source data is prepared in a clean tabular format before being loaded into staging tables.
 
 [View Mockup Data](sample_data/datamart_mockup.xlsx)
+
+> GitHub may not preview the Excel file directly because of its file size. Please use **Download**, **View raw**, or open the file in Microsoft Excel.
+
+A short note about the mockup dataset is also provided in:
+
+[Mockup Data README](sample_data/README.md)
 
 ## Database Schemas
 
